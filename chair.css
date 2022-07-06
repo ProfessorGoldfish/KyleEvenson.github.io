@@ -1,0 +1,92 @@
+header{
+	background-color: red;
+	line-height: 300%;
+	font-weight: bolder;
+	background-image: url("chair-collage.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	color: white;
+}
+nav{
+	font-weight: bold;
+	font-size: 150%;
+	color: #000080;
+	background-color: #30d5c8;
+}
+nav a{ 
+	text-decoration: none;
+	padding: 5px;
+	transition: color 2s linear;
+}
+nav a:hover{
+	color: #800000;
+}
+h1{
+	margin-bottom: 0;
+}
+h4{
+	margin-top: 0;
+}
+body{
+	background-color: #c5eafa;
+	background-image:  linear-gradient(to bottom, #ffffff,  #c5eafa);
+	background-repeat: no-repeat;
+}
+.chair{
+	color: red;
+}
+#imgcontainer{
+	display: flex;
+	float: left;
+	flex-direction: column;
+}
+img{
+	padding-right: 30px;
+}
+h2{
+	font-size: 200%;
+}
+ul{
+	font-size: 200%;
+}
+p{
+	font-size: 150%;
+}
+footer{
+	background-color: aquamarine;
+	text-align: center;
+	font-size: 200%;
+	width:100%;
+	clear:both;
+}
+table{
+	border: 2px solid #800000;
+	border-collapse: collapse;
+}
+
+td{
+	text-align: center;
+	padding: 0.5em;
+	border: 2px solid #800000;
+}
+th{
+	padding: 0.5em;
+	border: 2px  solid #800000;
+}
+tr:nth-of-type(odd){
+	background-color:#DCAE96;
+}
+label{
+	float:left;
+	display:block;
+	text-align: right;
+	width: 175px;
+	padding-right: 10px;
+}
+input{
+	display: block;
+	margin-bottom: 20px;
+}
+input[type="submit"]{
+	margin-left: 185px;
+}
